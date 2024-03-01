@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,27 +16,28 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/array';
 
 /**
-* Count the number of elements that are equal to a given value in an array.
+* Counts the number of elements that are equal to a given value in an array.
 *
-* @module @stdlib/array-base-count-same-value-zero
+* @param x - input array
+* @param value - given value
+* @returns number of elements that are equal to the given value
 *
 * @example
-* var countSameValueZero = require( '@stdlib/array-base-count-same-value-zero' );
+* var x = [ 0, 1, 0, 1, 1 ];
 *
-* var x = [ 0, 0, 1, 0, 1 ];
-*
-* var n = countSameValueZero( x, 1 );
-* // returns 2
+* var out = countSameValueZero( x, 1 );
+* // returns 3
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function countSameValueZero( x: Collection, value: any ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = countSameValueZero;
