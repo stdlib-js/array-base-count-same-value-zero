@@ -1,5 +1,0 @@
-"use strict";var f=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var v=f(function(Z,s){
-var c=require('@stdlib/array-base-assert-is-complex-typed-array/dist'),q=require('@stdlib/assert-is-complex-like/dist'),m=require('@stdlib/complex-real/dist'),p=require('@stdlib/complex-imag/dist'),g=require('@stdlib/strided-base-reinterpret-complex/dist'),l=require('@stdlib/array-base-assert-is-accessor-array/dist'),d=require('@stdlib/array-base-resolve-getter/dist'),u=require('@stdlib/assert-is-same-value-zero/dist');function h(e,r){var i,t;for(i=0,t=0;t<e.length;t++)u(e[t],r)&&(i+=1);return i}function y(e,r){var i,t,n;for(i=d(e),t=0,n=0;n<e.length;n++)u(i(e,n),r)&&(t+=1);return t}function A(e,r){var i,t,n,o,a;if(!q(r))return 0;for(t=m(r),n=p(r),i=g(e,0),o=0,a=0;a<i.length;a+=2)u(i[a],t)&&u(i[a+1],n)&&(o+=1);return o}function C(e,r){return l(e,r)?c(e,r)?A(e,r):y(e,r):h(e,r)}s.exports=C
-});var S=v();module.exports=S;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
