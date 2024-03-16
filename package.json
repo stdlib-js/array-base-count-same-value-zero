@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/array-base-count-same-value-zero",
   "version": "0.0.0",
-  "description": "Count the number of elements that are equal to a given value in an array.",
+  "description": "Count the number of elements in an array that are equal to a specified value.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -17,6 +17,7 @@
   "directories": {
     "benchmark": "./benchmark",
     "doc": "./docs",
+    "example": "./examples",
     "lib": "./lib",
     "test": "./test"
   },
@@ -24,6 +25,7 @@
   "scripts": {
     "test": "make test",
     "test-cov": "make test-cov",
+    "examples": "make examples",
     "benchmark": "make benchmark"
   },
   "homepage": "https://stdlib.io",
@@ -54,7 +56,7 @@
     "@stdlib/assert-is-nonnegative-integer": "^0.2.1",
     "@stdlib/complex-float64": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
-    "@stdlib/random-sample": "^0.2.1",
+    "@stdlib/random-array-bernoulli": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
@@ -87,7 +89,8 @@
     "summation",
     "countif",
     "total",
-    "same"
+    "same",
+    "equal"
   ],
   "funding": {
     "type": "opencollective",

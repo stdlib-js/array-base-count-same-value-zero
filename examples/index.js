@@ -18,25 +18,13 @@
 
 'use strict';
 
-/**
-* Count the number of elements in an array that are equal to a specified value.
-*
-* @module @stdlib/array-base-count-same-value-zero
-*
-* @example
-* var countSameValueZero = require( '@stdlib/array-base-count-same-value-zero' );
-*
-* var x = [ 0, 0, 1, 0, 1 ];
-*
-* var n = countSameValueZero( x, 1 );
-* // returns 2
-*/
+var bernoulli = require( '@stdlib/random-array-bernoulli' );
+var countSameValueZero = require( './../lib' );
 
-// MODULES //
+var x = bernoulli( 10, 0.5, {
+	'dtype': 'generic'
+});
+console.log( x );
 
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+var n = countSameValueZero( x, 1 );
+console.log( n );
