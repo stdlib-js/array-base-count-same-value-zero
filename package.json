@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-count-same-value-zero",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Count the number of elements in an array that are equal to a specified value.",
   "license": "Apache-2.0",
   "author": {
