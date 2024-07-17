@@ -44,7 +44,7 @@
     "@stdlib/assert-is-boolean": "^0.2.1",
     "@stdlib/assert-is-complex-like": "^0.2.1",
     "@stdlib/assert-is-same-value-zero": "^0.2.1",
-    "@stdlib/complex-imag": "^0.2.1",
+    "@stdlib/complex-float64-imag": "github:stdlib-js/complex-float64-imag#main",
     "@stdlib/complex-real": "^0.2.1",
     "@stdlib/strided-base-reinterpret-boolean": "^0.0.1",
     "@stdlib/strided-base-reinterpret-complex": "^0.1.1",
