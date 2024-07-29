@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import countSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@esm/index.mjs';
+import countSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@v0.2.0-esm/index.mjs';
 ```
 
 #### countSameValueZero( x, value )
@@ -111,7 +111,7 @@ var out = countSameValueZero( x, 0.0 );
 <script type="module">
 
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import countSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@esm/index.mjs';
+import countSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@v0.2.0-esm/index.mjs';
 
 var x = bernoulli( 10, 0.5, {
     'dtype': 'generic'
