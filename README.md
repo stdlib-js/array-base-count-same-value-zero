@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-countSameValueZero = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@umd/browser.js' )
+countSameValueZero = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var countSameValueZero = require( 'path/to/vendor/umd/array-base-count-same-valu
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -133,7 +133,7 @@ var out = countSameValueZero( x, 0.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
