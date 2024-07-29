@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.0">
 
-## Unreleased (2024-07-17)
+## 0.2.0 (2024-07-29)
 
 <section class="features">
 
@@ -58,7 +58,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### Features
 
--   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - add `array/base/count-same-value-zero` [(##1384)](#1384)
+-   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - add `array/base/count-same-value-zero` [(#1384)](https://github.com/stdlib-js/stdlib/pull/1384)
 
 </section>
 
@@ -70,7 +70,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 This release closes the following issue:
 
-[##1326](#1326)
+[#1326](https://github.com/stdlib-js/stdlib/issues/1326)
 
 </section>
 
@@ -84,9 +84,9 @@ This release closes the following issue:
 
 -   [`2db41a9`](https://github.com/stdlib-js/stdlib/commit/2db41a98bd2d5c04e0e07d29ef61cac443ba0970) - **docs:** fix copy _(by Athan Reines)_
 -   [`422cebf`](https://github.com/stdlib-js/stdlib/commit/422cebf73d40bdd463b27107da99f36b4aabb4f5) - **docs:** clean-up documentation and examples and rename folder _(by Athan Reines)_
--   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(##1462)](#1462) _(by stdlib-bot)_
+-   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(#1462)](https://github.com/stdlib-js/stdlib/pull/1462) _(by stdlib-bot)_
 -   [`670aeab`](https://github.com/stdlib-js/stdlib/commit/670aeab1e433314ca3b0ebfb4dce16f267cff881) - **docs:** fix require path _(by Philipp Burckhardt)_
--   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - **feat:** add `array/base/count-same-value-zero` [(##1384)](#1384) _(by AgPriyanshu18, Jaysukh Makvana, Philipp Burckhardt)_
+-   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - **feat:** add `array/base/count-same-value-zero` [(#1384)](https://github.com/stdlib-js/stdlib/pull/1384) _(by AgPriyanshu18, Jaysukh Makvana, Philipp Burckhardt)_
 
 </details>
 
