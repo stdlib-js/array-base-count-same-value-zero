@@ -86,7 +86,7 @@ This release closes the following issue:
 -   [`422cebf`](https://github.com/stdlib-js/stdlib/commit/422cebf73d40bdd463b27107da99f36b4aabb4f5) - **docs:** clean-up documentation and examples and rename folder _(by Athan Reines)_
 -   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(#1462)](https://github.com/stdlib-js/stdlib/pull/1462) _(by stdlib-bot)_
 -   [`670aeab`](https://github.com/stdlib-js/stdlib/commit/670aeab1e433314ca3b0ebfb4dce16f267cff881) - **docs:** fix require path _(by Philipp Burckhardt)_
--   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - **feat:** add `array/base/count-same-value-zero` [(#1384)](https://github.com/stdlib-js/stdlib/pull/1384) _(by AgPriyanshu18, Jaysukh Makvana, Philipp Burckhardt)_
+-   [`1ed81b7`](https://github.com/stdlib-js/stdlib/commit/1ed81b78fd6469d374c7b033f258e709934539b2) - **feat:** add `array/base/count-same-value-zero` [(#1384)](https://github.com/stdlib-js/stdlib/pull/1384) _(by Priyanshu Agarwal, Jaysukh Makvana, Philipp Burckhardt)_
 
 </details>
 
@@ -100,10 +100,10 @@ This release closes the following issue:
 
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
--   AgPriyanshu18
 -   Athan Reines
 -   Jaysukh Makvana
 -   Philipp Burckhardt
+-   Priyanshu Agarwal
 
 </section>
 
