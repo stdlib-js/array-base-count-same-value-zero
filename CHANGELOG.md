@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-06-24)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`aa59ef8`](https://github.com/stdlib-js/stdlib/commit/aa59ef8461be08dc612cf4826bb020915d362239) - pass in correct number of arguments
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`aa59ef8`](https://github.com/stdlib-js/stdlib/commit/aa59ef8461be08dc612cf4826bb020915d362239) - **fix:** pass in correct number of arguments _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-07-29)
