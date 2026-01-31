@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-count-same-value-zero",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Count the number of elements in an array that are equal to a specified value.",
   "license": "Apache-2.0",
   "author": {
@@ -58,7 +58,7 @@
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-int32": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
-    "@stdlib/complex-float64-ctor": "^0.0.3",
+    "@stdlib/complex-float64-ctor": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/random-array-bernoulli": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
