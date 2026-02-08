@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import countSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-count-same-value-zero/tags). For example,
+
+```javascript
 import countSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@v0.2.2-deno/mod.js';
 ```
 
@@ -106,7 +111,7 @@ var out = countSameValueZero( x, 0.0 );
 
 ```javascript
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import countSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@v0.2.2-deno/mod.js';
+import countSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value-zero@deno/mod.js';
 
 var x = bernoulli( 10, 0.5, {
     'dtype': 'generic'
